@@ -3,7 +3,8 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Typography from '../components/Typography';
-import Link from '@mui/material/Link';
+import { Link } from 'react-router-dom';
+import LaunchIcon from '@mui/icons-material/Launch';
 
 function AboutMe(){
     return(
@@ -23,8 +24,8 @@ function AboutMe(){
                             <Typography variant="h5" color="white"sx={{mb: 4}}>
                                 I'm a self taught Software Engineer from Los Angeles, CA. I use my drive and passion for learning to create digital experiences that help people.
                             </Typography>
-                            <Link variant="h6" color="#fcda68" sx={{cursor: 'pointer'}}>
-                                Check out my latest projects
+                            <Link to="/projects/" className="projectsLink">
+                                Check out my latest projects <LaunchIcon/>
                             </Link>
                         </Box>
                     </Grid>
