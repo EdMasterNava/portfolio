@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Container from '@mui/material/Container';
 import Typography from '../components/Typography';
+import  { Link } from 'react-router-dom';
 
 function Projects() {
     const ImageBackdrop = styled('div')(({ theme }) => ({
@@ -112,23 +113,25 @@ function Projects() {
                           }}
                         />
                         <ImageBackdrop className="imageBackdrop" />
-                        <Box
-                          sx={{
-                            position: 'absolute',
-                            left: 0,
-                            right: 0,
-                            top: 0,
-                            bottom: 0,
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            color: 'common.white',
-                          }}
-                        >
-                          <Typography component="h3" variant="h6" color="inherit" className="imageTitle">
-                            {image.title}
-                          </Typography>
-                        </Box>
+                        <Link to="/projects/landing-page">
+                          <Box
+                            sx={{
+                              position: 'absolute',
+                              left: 0,
+                              right: 0,
+                              top: 0,
+                              bottom: 0,
+                              display: 'flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              color: 'common.white',
+                            }}
+                          >
+                            <Typography component="h3" variant="h6" color="inherit" className="imageTitle">
+                              {image.title}
+                            </Typography>
+                          </Box>
+                        </Link>
                       </ImageIconButton>
                     ))}
                 </Box>
