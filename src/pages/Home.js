@@ -7,7 +7,7 @@ import ContactMe from './modules/views/ContactMe';
 import Footer from './modules/views/Footer';
 import withRoot from './modules/withRoot';
 
-function Index() {
+function Home() {
   return (
     <React.Fragment>
       <AppAppBar />
@@ -20,4 +20,4 @@ function Index() {
   );
 }
 
-export default withRoot(Index);
+export default withRoot(Home);
