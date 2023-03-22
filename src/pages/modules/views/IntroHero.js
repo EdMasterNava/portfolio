@@ -14,8 +14,12 @@ function IntroHero(){
                             flexDirection: 'column', 
                             textAlign: 'center',
                             justifyContent: 'center'}}>
-                <Typography variant="h2">Hi, I'm Eduardo</Typography>
-                <Typography variant="h6" color="#8773f0">A Software Engineer</Typography>
+                <Typography variant="h2">
+                    Hi, I'm Eduardo
+                </Typography>
+                <Typography variant="h6" color="#8773f0" sx={{/*'-webkit-text-stroke': '.25px black'*/}}>
+                    A Software Engineer
+                </Typography>
             </Container>  
         </Box>
     )
