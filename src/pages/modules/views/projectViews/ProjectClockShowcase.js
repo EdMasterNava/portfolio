@@ -30,7 +30,7 @@ function ProjectClockShowcase() {
                                 </Link>
                             </Grid>
                             <Grid item md={8} sm={8} xs={12}>
-                                <Link to="/projects/25-5-clock" style={{textDecoration: 'none'}}>
+                                <Link to="/projects/drum-machine" style={{textDecoration: 'none'}}>
                                     <Button sx={{width: '100%', borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, backgroundImage: `url(${require('../../img/tomatoClock.png')})`}}>
                                         <Box sx={{py: 5}}>
                                             <Typography variant="h4">
