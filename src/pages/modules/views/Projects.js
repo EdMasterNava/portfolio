@@ -77,7 +77,7 @@ function Projects() {
           width: '40%',
           bgImage: 'cover',
           bgP: 'center center',
-          link: ''
+          link: '/projects/drum-machine'
         },
         {
           url: require('../img/markdown.png'),
