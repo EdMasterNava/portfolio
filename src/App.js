@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import ProjectHome from './pages/ProjectHome';
 import ProjectLandingPage from './pages/ProjectLandingPage';
 import ProjectClock from './pages/ProjectClock';
+import ProjectDrumMachine from './pages/ProjectDrumMachine';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/projects/" element={<ProjectHome />}></Route>
         <Route path="/projects/landing-page" element={<ProjectLandingPage />} />
         <Route path="/projects/25-5-clock" element={<ProjectClock />} />
+        <Route path="/projects/drum-machine" element={<ProjectDrumMachine />} />
       </Routes>
     </>
   );
