@@ -7,9 +7,25 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
     return (
         <Typography component="footer" sx={{display: 'flex', bgcolor: '#fcda68'}}>
-            <Container sx={{py: 5, display: 'flex'}}>
-                <LinkedInIcon />
-                <GitHubIcon />
+            <Container sx={{py: 5, display: 'flex', flexDirection: 'row', gap: 5}}>
+                <a  href='https://www.linkedin.com/in/eduardo-nava-codes/' 
+                    target='_blank' 
+                    rel="noreferrer" 
+                    style={{textDecoration: 'none', color: 'black', display: 'flex', flexDirection: 'row'}}>
+                    <LinkedInIcon />
+                    <div style={{alignSelf: 'center', fontWeight: 'bold', fontSize: '1.2rem'}}>
+                        LinkedIn
+                    </div>
+                </a>
+                <a  href='https://github.com/EdMasterNava' 
+                    target='_blank' 
+                    rel="noreferrer" 
+                    style={{textDecoration: 'none', color: 'black', display: 'flex', flexDirection: 'row'}}>
+                    <GitHubIcon />
+                    <div style={{alignSelf: 'center', fontWeight: 'bold', fontSize: '1.2rem', marginLeft: '1px'}}>
+                        GitHub
+                    </div>
+                </a>
             </Container>
         </Typography>
     )
