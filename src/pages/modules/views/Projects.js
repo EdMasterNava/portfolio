@@ -60,35 +60,40 @@ function Projects() {
           title: 'Landing Page',
           width: '40%',
           bgImage: 'cover',
-          bgP: ''
+          bgP: '',
+          link: '/projects/landing-page'
         },
         {
           url: require('../img/tomatoClock.png'),
           title: '25-5 Clock',
           width: '20%',
           bgImage: 'cover',
-          bgP: 'center center'
+          bgP: 'center center',
+          link: '/projects/25-5-clock'
         },
         {
           url: require('../img/drumMachine.png'),
           title: 'Drum Machine',
           width: '40%',
           bgImage: 'cover',
-          bgP: 'center center'
+          bgP: 'center center',
+          link: ''
         },
         {
           url: require('../img/markdown.png'),
           title: 'Technical Documentation',
           width: '50%',
           bgImage: 'cover',
-          bgP: ''
+          bgP: '',
+          link: ''
         },
         {
           url: require('../img/calculator.png'),
           title: 'Calculator',
           width: '50%',
           bgImage: 'cover',
-          bgP: 'center center'
+          bgP: 'center center',
+          link: ''
         },
     ];
     return (
@@ -113,7 +118,7 @@ function Projects() {
                           }}
                         />
                         <ImageBackdrop className="imageBackdrop" />
-                        <Link to="/projects/landing-page">
+                        <Link to={image.link}>
                           <Box
                             sx={{
                               position: 'absolute',
