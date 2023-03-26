@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import Button from '../../components/Button';
 import { Link } from 'react-router-dom'
 
-function ProjectClockShowcase() {
+function ProjectTDShowcase() {
     return(
         <>
             <Box sx={{bgcolor: '#fcda68', py: 10}}>
@@ -49,4 +49,4 @@ function ProjectClockShowcase() {
     )
 }
 
-export default ProjectClockShowcase;
+export default ProjectTDShowcase;
