@@ -85,7 +85,7 @@ function Projects() {
           width: '50%',
           bgImage: 'cover',
           bgP: '',
-          link: ''
+          link: '/projects/technical-doc'
         },
         {
           url: require('../img/calculator.png'),
@@ -93,7 +93,7 @@ function Projects() {
           width: '50%',
           bgImage: 'cover',
           bgP: 'center center',
-          link: ''
+          link: '/projects/calculator'
         },
     ];
     return (

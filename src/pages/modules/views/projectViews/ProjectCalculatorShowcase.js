@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import Button from '../../components/Button';
 import { Link } from 'react-router-dom'
 
-function ProjectTDShowcase() {
+function ProjectCalculatorShowcase() {
     return(
         <>
             <Box sx={{bgcolor: '#fcda68', py: 10}}>
@@ -19,7 +19,7 @@ function ProjectTDShowcase() {
                     <Box sx={{bgcolor: '#8773f0', borderRadius: 3, border: '2px solid black'}}>
                         <Grid container>
                             <Grid item md={4} sm={4} xs={12} sx={{bgcolor: 'rgb(0,0,0,0.8)', borderRadius: {sm: '10px 0 0 10px', xs: '10px'}}}>
-                                <Link to="/projects/" style={{textDecoration: 'none'}}>
+                                <Link to="/projects/technical-doc" style={{textDecoration: 'none'}}>
                                     <Button sx={{width: '100%', borderRadius: {sm: '10px 0 0 10px', xs: '10px'}}}>
                                         <Box sx={{py: 5}}>
                                             <Typography variant="h4">
@@ -30,8 +30,8 @@ function ProjectTDShowcase() {
                                 </Link>
                             </Grid>
                             <Grid item md={8} sm={8} xs={12}>
-                                <Link to="/projects/calculator" style={{textDecoration: 'none'}}>
-                                    <Button sx={{width: '100%', borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, backgroundImage: `url(${require('../../img/calculator.png')})`}}>
+                                <Link to="/projects/drum-machine" style={{textDecoration: 'none'}}>
+                                    <Button sx={{width: '100%', borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, backgroundImage: `url(${require('../../img/tomatoClock.png')})`}}>
                                         <Box sx={{py: 5}}>
                                             <Typography variant="h4">
                                                 Next
@@ -49,4 +49,4 @@ function ProjectTDShowcase() {
     )
 }
 
-export default ProjectTDShowcase;
+export default ProjectCalculatorShowcase;
