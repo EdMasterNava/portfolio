@@ -38,11 +38,19 @@ function ProjectHomeHero(){
                     <Grid container>
                         <Grid item md={4} sm={4} xs={12} sx={{bgcolor: 'rgb(0,0,0,0.8)', borderRadius: {sm: '10px 0 0 10px', xs: '10px'}}}>
                         </Grid>
-                        <Grid item md={8} sm={8} xs={12}>
+                        <Grid item md={8} sm={8} xs={12} sx={{position: 'relative'}}>
                             <Link to="/projects/landing-page" style={{textDecoration: 'none'}}>
-                                <Button sx={{width: '100%', borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, backgroundImage: `url(${require('../../img/boardGamesLandingPage.png')})`}}>
-                                    <Box sx={{py: 5}}>
-                                        <Typography variant="h4">
+                                <Button sx={{   width: '100%', 
+                                                borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, 
+                                                backgroundImage: `url(${require('../../img/boardGamesLandingPage.png')})`,
+                                                backgroundSize: '1700px', 
+                                                postion: 'relative',
+                                                '&:hover .backdrop': {background: 'rgba(0, 0, 0, 0.4)', filter: 'blur(5px)'},
+                                                '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)'}
+                                            }}>
+                                    <Box className="backdrop" sx={{position: 'absolute', width: '100%', height: '100%'}}/>
+                                    <Box className="textName" sx={{py: 1, px: 2, border: '2px solid transparent', color: 'transparent', zIndex: 1}}>
+                                        <Typography variant="h5" >
                                             Next
                                         </Typography>
                                     </Box>
