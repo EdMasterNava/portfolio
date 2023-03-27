@@ -21,7 +21,7 @@ function ProjectTDShowcase() {
                             <Grid item md={4} sm={4} xs={12} sx={{bgcolor: 'rgb(0,0,0,0.8)', borderRadius: {sm: '10px 0 0 10px', xs: '10px'}}}>
                                 <Link to="/projects/drum-machine" style={{textDecoration: 'none'}}>
                                     <Button sx={{   width: '100%', 
-                                                    borderRadius: {sm: '10px 0 0 10px', xs: '10px'}, 
+                                                    borderRadius: {sm: '10px 0 0 10px', xs: '10px 10px 0 0'}, 
                                                     backgroundImage: `url(${require('../../img/drumMachine.png')})`,
                                                     backgroundSize: '1000px',
                                                     backgroundPosition: '-280px -77px',
@@ -48,7 +48,7 @@ function ProjectTDShowcase() {
                             <Grid item md={8} sm={8} xs={12}>
                                 <Link to="/projects/calculator" style={{textDecoration: 'none'}}>
                                     <Button sx={{   width: '100%', 
-                                                    borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, 
+                                                    borderRadius: {sm: '0 10px 10px 0', xs: '0 0 10px 10px'}, 
                                                     backgroundImage: `url(${require('../../img/calculator.png')})`,
                                                     backgroundSize: '600px',
                                                     backgroundPosition: '-100px -114px',

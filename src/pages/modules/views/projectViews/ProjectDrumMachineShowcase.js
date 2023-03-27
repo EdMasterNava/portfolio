@@ -48,7 +48,7 @@ function ProjectDrumMachineShowcase() {
                             <Grid item md={8} sm={8} xs={12}>
                                 <Link to="/projects/technical-doc" style={{textDecoration: 'none'}}>
                                     <Button sx={{   width: '100%', 
-                                                    borderRadius: {sm: '0 10px 10px 0', xs: '10px'}, 
+                                                    borderRadius: {sm: '0 10px 10px 0', xs: '0 0 10px 10px'}, 
                                                     backgroundImage: `url(${require('../../img/markdown.png')})`,
                                                     backgroundSize: '800px',
                                                     backgroundPosition: '0px 0px',
