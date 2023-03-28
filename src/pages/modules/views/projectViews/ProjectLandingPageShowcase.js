@@ -11,7 +11,7 @@ function ProjectLandingPageShowcase() {
         <>
             <Box sx={{bgcolor: '#fcda68', py: 10}}>
                 <Container>
-                    <iframe height="750" width="100%" src="https://edmasternava.github.io/board-games-LP/" title="FCC Landing Page 'Board Games'"/>
+                    <iframe height="750" width="100%" src="https://edmasternava.github.io/board-games-LP/" title="Landing Page 'Board Games'"/>
                 </Container>
             </Box>
             <Box component="section" sx={{bgcolor: 'white', p: 10}}>
