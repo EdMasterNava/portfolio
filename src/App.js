@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects/" element={<ProjectHome />}></Route>
+        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/projects/" element={<ProjectHome />} />
         <Route path="/projects/landing-page" element={<ProjectLandingPage />} />
         <Route path="/projects/25-5-clock" element={<ProjectClock />} />
         <Route path="/projects/drum-machine" element={<ProjectDrumMachine />} />
