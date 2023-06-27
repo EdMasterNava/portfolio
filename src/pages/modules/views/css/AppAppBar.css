@@ -30,6 +30,7 @@ html {
     font-size: 1.3rem;
     font-weight: bold;
     color: #fcda68;
+    cursor: pointer;
 }
 .projectsLink:hover {
     color: black;

@@ -28,18 +28,19 @@ function ProjectDrumMachineShowcase() {
                                                     backgroundRepeat: 'no-repeat',
                                                     postion: 'relative',
                                                     '&:hover .backdrop': {background: 'rgba(0, 0, 0, 0.4)', filter: 'blur(5px)'},
-                                                    '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)'}
+                                                    '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)', borderRadius: 2}
                                                 }}>
                                         <Box className="backdrop" sx={{position: 'absolute', width: '100%', height: '100%'}}/>
                                         <Box className="textName" sx={{ py: 1, 
                                                                         px: 2, 
                                                                         border: '2px solid transparent',
-                                                                        background: 'transparent',
-                                                                        color: 'transparent', 
-                                                                        zIndex: 1
+                                                                        background: 'rgba(255, 255, 255, 0.8)',
+                                                                        color: 'black', 
+                                                                        zIndex: 1,
+                                                                        borderRadius: 2
                                                                     }}>
                                             <Typography variant="h5">
-                                                Previous
+                                                Back
                                             </Typography>
                                         </Box>
                                     </Button>
@@ -49,23 +50,24 @@ function ProjectDrumMachineShowcase() {
                                 <Link to="/projects/technical-doc" style={{textDecoration: 'none'}}>
                                     <Button sx={{   width: '100%', 
                                                     borderRadius: {sm: '0 10px 10px 0', xs: '0 0 10px 10px'}, 
-                                                    backgroundImage: `url(${require('../../img/markdown.png')})`,
+                                                    backgroundImage: `url(${require('../../img/therollroster.png')})`,
                                                     backgroundSize: '800px',
                                                     backgroundPosition: '0px 0px',
                                                     backgroundRepeat: 'no-repeat',
                                                     '&:hover .backdrop': {background: 'rgba(0, 0, 0, 0.4)', filter: 'blur(5px)'},
-                                                    '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)'}
+                                                    '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)', borderRadius: 2}
                                                 }}>
                                             <Box className="backdrop" sx={{position: 'absolute', width: '100%', height: '100%'}}/>
                                             <Box className="textName" sx={{ py: 1, 
                                                                             px: 2, 
                                                                             border: '2px solid transparent',
-                                                                            background: 'transparent',
-                                                                            color: 'transparent', 
-                                                                            zIndex: 1
+                                                                            background: 'rgba(255, 255, 255, 0.8)',
+                                                                            color: 'black', 
+                                                                            zIndex: 1,
+                                                                            borderRadius: 2
                                                                         }}>
                                             <Typography variant="h5">
-                                                Next
+                                                Next Project
                                             </Typography>
                                         </Box>
                                     </Button>

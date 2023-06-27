@@ -24,7 +24,7 @@ function AboutMe(){
                             <Typography variant="h5" color="white"sx={{mb: 4}}>
                                 I'm a self taught Software Engineer from Los Angeles, CA. I use my drive and passion for learning to create digital experiences that help people.
                             </Typography>
-                            <Link to="/projects/" className="projectsLink">
+                            <Link to="/projects/landing-page" className="projectsLink">
                                 Check out my latest projects <LaunchIcon/>
                             </Link>
                         </Box>

@@ -6,6 +6,9 @@ import Footer from './modules/views/Footer';
 import withRoot from './modules/withRoot';
 
 function ProjectCalculator() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
     return (
       <React.Fragment>
         <AppAppBar />

@@ -13,7 +13,7 @@ function AppAppBar() {
           <Link to="/" className="navName">
             Eduardo Nava
           </Link>
-          <Link to="/projects/" className="navTabs">
+          <Link to="/projects/landing-page" className="navTabs">
             Projects
           </Link>
         </Container>

@@ -46,12 +46,12 @@ function ProjectHomeHero(){
                                                 backgroundSize: '1700px', 
                                                 postion: 'relative',
                                                 '&:hover .backdrop': {background: 'rgba(0, 0, 0, 0.4)', filter: 'blur(5px)'},
-                                                '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)'}
+                                                '&:hover .textName': {color: 'black', background: 'rgba(255, 255, 255, 0.8)', borderRadius: 2}
                                             }}>
                                     <Box className="backdrop" sx={{position: 'absolute', width: '100%', height: '100%'}}/>
-                                    <Box className="textName" sx={{py: 1, px: 2, border: '2px solid transparent', color: 'transparent', zIndex: 1}}>
+                                    <Box className="textName" sx={{py: 1, px: 2, border: '2px solid transparent', color: 'black', zIndex: 1}}>
                                         <Typography variant="h5" >
-                                            Next
+                                            Next Project
                                         </Typography>
                                     </Box>
                                 </Button>

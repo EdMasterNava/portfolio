@@ -3,8 +3,8 @@ import AppAppBar from './modules/views/AppAppBar';
 import IntroHero from './modules/views/IntroHero';
 import AboutMe from './modules/views/AboutMe';
 import Projects from './modules/views/Projects';
-import ContactMe from './modules/views/ContactMe';
-import Footer from './modules/views/Footer';
+// import ContactMe from './modules/views/ContactMe';
+import FooterWhite from './modules/views/FooterWhite';
 import withRoot from './modules/withRoot';
 
 function Home() {
@@ -14,8 +14,8 @@ function Home() {
       <IntroHero />
       <AboutMe />
       <Projects />
-      <ContactMe />
-      <Footer />
+      {/* <ContactMe /> */}
+      <FooterWhite />
     </React.Fragment>
   );
 }

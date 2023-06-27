@@ -80,8 +80,8 @@ function Projects() {
           link: '/projects/drum-machine'
         },
         {
-          url: require('../img/markdown.png'),
-          title: 'Technical Documentation',
+          url: require('../img/therollroster.png'),
+          title: 'The Roll Roster',
           width: '50%',
           bgImage: 'cover',
           bgP: '',
