@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/EdMasterNava/portfolio/static/css/main.4767c898.css",
-    "main.js": "/EdMasterNava/portfolio/static/js/main.86296280.js",
-    "static/media/therollroster.png": "/EdMasterNava/portfolio/static/media/therollroster.dd2af94abdcfe1a84361.png",
-    "static/media/boardGamesLandingPage.png": "/EdMasterNava/portfolio/static/media/boardGamesLandingPage.d6359a0dba70914f29c0.png",
-    "static/media/tomatoClock.png": "/EdMasterNava/portfolio/static/media/tomatoClock.fdd3c0779c6774b47e2f.png",
-    "static/media/portrait.jpg": "/EdMasterNava/portfolio/static/media/portrait.df271d5fda48cb16768d.jpg",
-    "static/media/drumMachine.png": "/EdMasterNava/portfolio/static/media/drumMachine.eccd3e05c10709841b57.png",
-    "static/media/calculator.png": "/EdMasterNava/portfolio/static/media/calculator.bc20b30580142608d03d.png",
-    "index.html": "/EdMasterNava/portfolio/index.html",
-    "main.4767c898.css.map": "/EdMasterNava/portfolio/static/css/main.4767c898.css.map",
-    "main.86296280.js.map": "/EdMasterNava/portfolio/static/js/main.86296280.js.map"
+    "main.css": "/portfolio/static/css/main.4767c898.css",
+    "main.js": "/portfolio/static/js/main.53b3d9c0.js",
+    "static/media/therollroster.png": "/portfolio/static/media/therollroster.dd2af94abdcfe1a84361.png",
+    "static/media/boardGamesLandingPage.png": "/portfolio/static/media/boardGamesLandingPage.d6359a0dba70914f29c0.png",
+    "static/media/tomatoClock.png": "/portfolio/static/media/tomatoClock.fdd3c0779c6774b47e2f.png",
+    "static/media/portrait.jpg": "/portfolio/static/media/portrait.df271d5fda48cb16768d.jpg",
+    "static/media/drumMachine.png": "/portfolio/static/media/drumMachine.eccd3e05c10709841b57.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.bc20b30580142608d03d.png",
+    "index.html": "/portfolio/index.html",
+    "main.4767c898.css.map": "/portfolio/static/css/main.4767c898.css.map",
+    "main.53b3d9c0.js.map": "/portfolio/static/js/main.53b3d9c0.js.map"
   },
   "entrypoints": [
     "static/css/main.4767c898.css",
-    "static/js/main.86296280.js"
+    "static/js/main.53b3d9c0.js"
   ]
 }
