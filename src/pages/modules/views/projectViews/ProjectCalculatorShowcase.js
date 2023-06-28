@@ -39,7 +39,7 @@ function ProjectCalculatorShowcase() {
                                                                         borderRadius: 2
                                                                     }}>
                                             <Typography variant="h5">
-                                                Previous
+                                                Back
                                             </Typography>
                                         </Box>
                                     </Button>

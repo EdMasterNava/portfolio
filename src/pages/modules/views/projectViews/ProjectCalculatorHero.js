@@ -20,16 +20,16 @@ function ProjectCalculatorHero() {
                         <Grid item md={4}/>
                         <Grid item md={7} sx={{py: 3}}>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>
-                                {'Introducing my React Calculator App, a powerful and user-friendly application developed with React.'}
+                                {'My Calculator App, a user-friendly application developed with React.'}
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>                                
                                 {'This calculator provides a sleek interface, allowing users to perform various mathematical operations with ease.'}
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>
-                                {'Built with modular components and efficient logic, the app accurately handles calculations and displays results in real-time. It supports a wide range of functionalities, including addition, subtraction, multiplication, and division.'}
+                                {'Built with modular components and efficient logic, the app accurately handles calculations and displays results in real-time. It supports a range of functionalities, including addition, subtraction, multiplication, and division.'}
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>
-                                {'With its responsive design and dynamic features, the React Calculator App is the perfect tool for anyone in need of quick and reliable calculations.'}
+                                {'With its responsive design and dynamic features, my Calculator App seamlessly delivers a smooth user experience'}
                             </Typography>
                             <Typography variant="h6" sx={{textAlign: 'left'}}> 
                                 <a className="projectsLink" href="https://edmasternava.github.io/calculator/" target='_blank' rel="noreferrer"> 
