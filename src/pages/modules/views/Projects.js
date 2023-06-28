@@ -56,20 +56,20 @@ function Projects() {
     }));
     const images = [
         {
+          url: require('../img/therollroster.png'),
+          title: 'The Roll Roster',
+          width: '50%',
+          bgImage: 'cover',
+          bgP: '',
+          link: '/projects/technical-doc'
+        },
+        {
           url: require('../img/boardGamesLandingPage.png'),
           title: 'Landing Page',
-          width: '40%',
+          width: '50%',
           bgImage: 'cover',
           bgP: '',
           link: '/projects/landing-page'
-        },
-        {
-          url: require('../img/tomatoClock.png'),
-          title: '25-5 Clock',
-          width: '20%',
-          bgImage: 'cover',
-          bgP: 'center center',
-          link: '/projects/25-5-clock'
         },
         {
           url: require('../img/drumMachine.png'),
@@ -80,17 +80,17 @@ function Projects() {
           link: '/projects/drum-machine'
         },
         {
-          url: require('../img/therollroster.png'),
-          title: 'The Roll Roster',
-          width: '50%',
+          url: require('../img/tomatoClock.png'),
+          title: '25-5 Clock',
+          width: '20%',
           bgImage: 'cover',
-          bgP: '',
-          link: '/projects/technical-doc'
+          bgP: 'center center',
+          link: '/projects/25-5-clock'
         },
         {
           url: require('../img/calculator.png'),
           title: 'Calculator',
-          width: '50%',
+          width: '40%',
           bgImage: 'cover',
           bgP: 'center center',
           link: '/projects/calculator'

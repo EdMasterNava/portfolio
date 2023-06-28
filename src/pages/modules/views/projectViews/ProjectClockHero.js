@@ -20,7 +20,7 @@ function ProjectClockHero() {
                         <Grid item md={4}/>
                         <Grid item md={7} sx={{py: 3}}>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>
-                                {'Introducing my React-based Pomodoro Timer project, designed to enhance productivity through focused work and regular breaks.'}
+                                {'My React-based Pomodoro Timer project, designed to enhance productivity through focused work and regular breaks.'}
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>                                
                                 {'This dynamic clock application allows users to set 25-minute work sessions followed by 5-minute breaks, creating a structured and efficient workflow.'}

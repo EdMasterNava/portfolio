@@ -20,7 +20,7 @@ function ProjectDrumMachineHero() {
                         <Grid item md={4}/>
                         <Grid item md={7} sx={{py: 3}}>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>
-                                {'Introducing my React-powered Drum Machine project, an interactive and engaging application that allows users to create rhythm and music.'}
+                                {'My React-powered Drum Machine project, an interactive and engaging application that allows users to create rhythm and music.'}
                             </Typography>
                             <Typography variant="h6" sx={{color: 'white', textAlign: 'left', pb: 2}}>                                
                                 {'Built with CSS, HTML, and JavaScript, this drum machine offers a dynamic interface where users can trigger sound samples by either clicking on the drum pads or using corresponding keyboard keys.'}

@@ -10,7 +10,7 @@ function AppAppBar() {
     <div>
       <AppBar position="fixed" sx={{backgroundColor: '#fcda68', p: 1}}>
         <Container sx={{display: 'flex', justifyContent: 'space-between'}}>
-          <Link to="/" className="navName">
+          <Link to="/portfolio" className="navName">
             Eduardo Nava
           </Link>
           <Link to="/projects/landing-page" className="navTabs">

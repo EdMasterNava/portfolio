@@ -13,7 +13,7 @@ function AboutMe(){
                 <Grid container>
                     <Grid item xs={12} md={6}>
                         <Box sx={{minHeight: 375, minWidth: 425, position: {md: 'relative', xs: ''}}}>
-                            <Box component="img" src={require('../img/portrait.jpg')} sx={{width: '100%', height: 'fit-content', objectFit: 'cover', position: {md: 'absolute', xs: ''}, top: {md: -38, xs: 0}, left: {md: 28, xs: 0}}}/>
+                            <Box component="img" src={require('../img/portrait.jpg')} sx={{width: '100%', height: '100%', objectFit: 'cover', position: {md: 'absolute', xs: ''}, top: {md: -38, xs: 0}, left: {md: 28, xs: 0}}}/>
                         </Box>
                     </Grid>
                     <Grid item xs={12} md={6} sx={{zIndex: 1}}>
